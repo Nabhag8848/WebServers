@@ -23,6 +23,7 @@
     "finalhandler": "^1.1.2",
     "forwarded": "^0.2.0",
     "fresh": "^0.5.2",
+    "hbs": "^4.2.0",
     "http-errors": "^1.8.1",
     "iconv-lite": "^0.4.24",
     "inherits": "^2.0.4",
