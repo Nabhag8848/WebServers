@@ -15,3 +15,8 @@ img{
     border-width: 10px;
     border-color: dodgerblue;
 }
+
+footer{
+    text-align:center;
+    font-size:20px;
+}
