@@ -1,0 +1,10 @@
+h1{
+    color:darkcyan;
+}
+
+img{
+    border-radius: 50%;
+    border-style: inset;
+    border-width: 10px;
+    border-color: dodgerblue;
+}
