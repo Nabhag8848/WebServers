@@ -45,6 +45,19 @@ app.get('/weather',(req,res)=>{
     })
 })
 
+app.get('/help/*',(req,res)=>{
+    res.render('error',{
+        errorMessage:'Help Page Not Found!'
+    })
+})
+
+app.get('*',(req,res)=>{
+    res.render('error',{
+        errorMessage: '404 Page not Found!'
+    })
+})
+
+
 app.listen(3000,()=>{
     console.log('Server is Up!!')
 })
