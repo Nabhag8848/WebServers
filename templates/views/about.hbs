@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>About</title>
+    <link rel="icon" href="/img/weather.png"/>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
-    {{>header}}
-    <img src = "/img/profile.png">
-    <p>Created by: {{name}}</p>
+    <div class="main-content">
+        {{>header}}
+        <img class = "profile" src = "/img/profile.png">
+        <span class = "main">
+          {{name}}
+        </span>
+    </div>
+  
     {{>footer}}
   </body>
 </html>
