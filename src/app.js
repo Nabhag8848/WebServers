@@ -39,11 +39,32 @@ app.get('/help',(req,res)=>{
 
 
 app.get('/weather',(req,res)=>{
+
+    if(!req.query.address){
+        return res.send({
+            error:'You must Provide address to render forecast'
+        })
+    }
+
     res.send({
+        address:req.query.address,
         degree:50,
         location:'Gujarat'
     })
 })
+
+// app.get('/products',(req,res)=>{
+    
+//     if(!req.query.search){
+//         return res.send({
+//             error:'You must provide search term'
+//         })
+//     }
+
+//     res.send({
+//         products:[]
+//     })
+// })
 
 app.get('/help/*',(req,res)=>{
     res.render('error',{
