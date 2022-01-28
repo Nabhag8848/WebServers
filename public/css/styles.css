@@ -60,3 +60,16 @@ footer {
   text-align: center;
   font-size: 20px;
 }
+
+input{
+  border:1px solid #ccc;
+  padding:8px;
+}
+
+button{
+  cursor: pointer;
+  border: 1px solid #888;
+  background: #888;
+  color:white;
+  padding:8px;
+}
