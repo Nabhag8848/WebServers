@@ -14,23 +14,23 @@ body {
   flex-grow: 1;
 }
 
-p{
-    font-size:40px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#888888;
+p {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #888888;
 }
 
 .main {
-    vertical-align: top;
-    font-size: 20px;
-    font-weight: 700;
+  vertical-align: top;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .profile {
   border-radius: 50%;
   width: 70px;
   border-style: inset;
-  border-width : 3px;
+  border-width: 3px;
   border-color: dodgerblue;
 }
 header {
@@ -61,15 +61,25 @@ footer {
   font-size: 20px;
 }
 
-input{
-  border:1px solid #ccc;
-  padding:8px;
+input {
+  border: 1px solid #ccc;
+  padding: 8px;
 }
 
-button{
+button {
   cursor: pointer;
   border: 1px solid #888;
   background: #888;
-  color:white;
-  padding:8px;
+  color: white;
+  padding: 8px;
+}
+
+.logo-content {
+  display: flex;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 35px;
+  padding-left: 20px;
 }
