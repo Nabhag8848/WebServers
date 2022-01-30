@@ -58,7 +58,8 @@
     "vary": "^1.1.2"
   },
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "repository": {
     "type": "git",
@@ -70,5 +71,8 @@
   "bugs": {
     "url": "https://github.com/Nabhag8848/WebServers/issues"
   },
-  "homepage": "https://github.com/Nabhag8848/WebServers#readme"
+  "homepage": "https://github.com/Nabhag8848/WebServers#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
