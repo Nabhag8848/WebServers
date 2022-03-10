@@ -75,18 +75,15 @@ app.get('/weather',(req,res)=>{
     
 })
 
-// app.get('/products',(req,res)=>{
-    
-//     if(!req.query.search){
-//         return res.send({
-//             error:'You must provide search term'
-//         })
-//     }
+app.get('/registration',(req,res)=>{
+    res.render('registration', {
+        title:'Register'
+    })
+})
 
-//     res.send({
-//         products:[]
-//     })
-// })
+app.get('/Assignment3', (req, res) => {
+    res.render('Assignment3')
+})
 
 app.get('/help/*',(req,res)=>{
     res.render('error',{
@@ -99,7 +96,6 @@ app.get('*',(req,res)=>{
         errorMessage: '404 Page not Found!'
     })
 })
-
 
 app.listen(port,()=>{
     console.log('Server is up on port ' + port)
